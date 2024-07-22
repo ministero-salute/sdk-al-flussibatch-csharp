@@ -1,1 +1,2 @@
-# sdk-al-flussibatch-csharp
+## mantainer:
+ Accenture SpA until January 2026

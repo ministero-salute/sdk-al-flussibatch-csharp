@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Access Layer per flusso -NOME FLUSSO-</Description>
+    <Authors>Digitouch</Authors>
+    <Company>Digitouch</Company>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AccessLayerMdS.Core">
+      <HintPath>..\dll\AccessLayerMdS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AccessLayerMdS.Models">
+      <HintPath>..\dll\AccessLayerMdS.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
